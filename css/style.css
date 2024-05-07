@@ -23,9 +23,6 @@ a {
 .bar {
     width: 100%;
     display: flex;
-    /* DEBUG */
-    background-color: grey;
-
 }
 
 /* regole barra superiore */
@@ -104,18 +101,50 @@ main {
     height: 100px;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(33, 33, 33);
+}
+
+.bottom-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 7px;
 }
 
 .bottom-side {
     /* debug */
-    background-color: orange;
-    width: 10%;
+    /* width: 10%; */
     height: 100%;
 }
 
 #bottom-center {
-    /* DEBUG */
-    background-color: brown;
-    width: 50%;
+    justify-content: center;
+    /* width: 50%; */
     height: 100%;
+}
+
+.symbol {
+    font-size: 40px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.text {
+    font-size: 15px;
+    display: block;
+}
+
+.fa-share-from-square {
+    color: green;
+}
+
+
+/* regole barra inferiore destra */
+#right {
+    background-color: rgb(74, 74, 74);
+
+}
+
+#right a {
+    color: red;
 }
